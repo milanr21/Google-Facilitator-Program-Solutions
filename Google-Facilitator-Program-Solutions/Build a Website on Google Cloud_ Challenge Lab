@@ -39,11 +39,11 @@ kubectl get service orders
 
 kubectl get service products
 
-TASK 5 ----------------------
+TASK 5 -----------------------
 
 IN VIDEO
 
-TASK 6 ----------------------
+TASK 6 -----------------------
 
 cd ~/monolith-to-microservices/microservices/src/frontend
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/frontend:1.0.0 .
